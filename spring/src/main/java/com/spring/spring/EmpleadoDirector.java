@@ -35,9 +35,17 @@ public class EmpleadoDirector implements Empleados {
 
     @Override
     public String getDocumento() {
-        // TODO Auto-generated method stub
+       
         throw new UnsupportedOperationException("Unimplemented method 'getDocumento'");
     }
+    public void metodoInicioPrueba(){
+        System.out.println("Aunque puedo añadir todas las tareas que yo quiera antes de iniciar el bean, por ahora solo muestro un mensaje");
 
+    }
+
+    public void metodoDestroyPrueba(){
+        System.out.println("Aunque puedo añadir todas las tareas que yo quiera en el DESTROY para que se ejecuten DESPUES DE APAGAR el beans, de momento solo muestro un mensaje");
+    }
+    
 
 }

@@ -7,7 +7,9 @@ public interface Empleados {
 
     public String getDocumento();
 
+    public abstract void metodoInicioPrueba();
 
+    
 
     
 }

@@ -30,6 +30,7 @@ xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.sprin
     </bean>
 <context:property-placeholder location="classpath:datosImportantes.propiedades"/>
 
+<bean id="EmpleadoDirector" class="com.spring.spring.EmpleadoDirector" scope="prototype">
 
 
 

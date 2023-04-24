@@ -15,7 +15,13 @@ public class EmpleadoRaso implements Empleados {
 
     @Override
     public String getDocumento() {
-        // TODO Auto-generated method stub
+       
         throw new UnsupportedOperationException("Unimplemented method 'getDocumento'");
+    }
+
+    @Override
+    public void metodoInicioPrueba() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'metodoInicioPrueba'");
     }
 }
